@@ -198,7 +198,7 @@ body.lock {
   height: 60px;
   border-radius: 50%;
   background: var(--black);
-  z-index: 1000;
+  z-index: 999;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1549,7 +1549,7 @@ body.lock {
     padding: 86px 0 0 30px;
     position: fixed;
     right: -100%;
-    z-index: 999;
+    z-index: 998;
     transition: all 0.8s cubic-bezier(0.7, 0, 0.2, 1);
   }
   .head__nav.active {
